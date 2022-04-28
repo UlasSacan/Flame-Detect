@@ -17,7 +17,7 @@ Serial.println("No Flame"); // Seri monitore No Flame yazacak.
 else // flame_data da ki veri 0 ise   
 {
 Serial.println("Flame Detected"); // Seri monitore Flame Detected yazacak. 
-digitalWrite(uyariLED, HIGH); // uyarini LEDini  200ms aralıklar ile yakıp söndürecek.
+digitalWrite(uyariLED, HIGH); // uyari LEDini  200ms aralıklar ile yakıp söndürecek.
 delay(200);
 digitalWrite(uyariLED, LOW);
 delay(200);
